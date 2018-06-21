@@ -10,5 +10,5 @@ var app = express();
 app.use(express.static(publicPath));
 
 app.listen(port, () => {
-  console.log(`serve is listening on port ${port}``);
+  console.log(`serve is listening on port ${port}`);
 });
